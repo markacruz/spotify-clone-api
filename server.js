@@ -11,7 +11,7 @@ app.use(cors());
 app.post('/refresh', (req, res) => {
     const refreshToken = req.body.refreshToken
     const spotifyApi = new spotifyWebApi({
-        redirectUri: 'http://localhost:3000',
+        redirectUri: 'https://markacruz.github.io/spotify-clone',
         clientId: process.env.CLIENT_ID,
         clientSecret: process.env.CLIENT_SECRET,
         refreshToken
@@ -32,7 +32,7 @@ app.post('/refresh', (req, res) => {
 app.post('/login', (req, res) => {
     const code = req.body.code
     const spotifyApi = new spotifyWebApi({
-        redirectUri: 'http://localhost:3000',
+        redirectUri: 'https://markacruz.github.io/spotify-clone',
         clientId: process.env.CLIENT_ID,
         clientSecret: process.env.CLIENT_SECRET,
     })

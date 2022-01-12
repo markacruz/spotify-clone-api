@@ -9,6 +9,9 @@
   "devDependencies": {
     "nodemon": "^2.0.15"
   },
+  "engines": {
+    "node": "16.13.1"
+  },
   "scripts": {
     "devStart": "nodemon server.js",
     "start": "node server.js"
@@ -18,5 +21,13 @@
   "main": "server.js",
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markacruz/spotify-clone-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/markacruz/spotify-clone-api/issues"
+  },
+  "homepage": "https://github.com/markacruz/spotify-clone-api#readme",
   "description": ""
 }
